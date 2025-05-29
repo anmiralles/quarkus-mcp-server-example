@@ -1,0 +1,8 @@
+me/amiralles/applications/boundary/ApplicationsAddResource.class
+me/amiralles/applications/boundary/ApplicationsAddResource$FormUploadInput.class
+me/amiralles/applications/RestApplication.class
+me/amiralles/applications/control/ApplicationExceptionMapper.class
+me/amiralles/applications/boundary/ApplicationsResource.class
+me/amiralles/applications/entity/EntityNotFoundException.class
+me/amiralles/applications/entity/Application.class
+me/amiralles/applications/entity/ApplicationStatus.class

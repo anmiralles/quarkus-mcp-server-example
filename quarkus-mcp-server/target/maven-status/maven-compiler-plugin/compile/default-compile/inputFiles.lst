@@ -1,0 +1,6 @@
+/Users/amiralle/Workspace/development/repos/local/quarkus-mcp-server-example/quarkus-mcp-server/src/main/java/me/amiralles/mcp/McpApplicationsServer.java
+/Users/amiralle/Workspace/development/repos/local/quarkus-mcp-server-example/quarkus-mcp-server/src/main/java/me/amiralles/mcp/McpCliConfigSource.java
+/Users/amiralle/Workspace/development/repos/local/quarkus-mcp-server-example/quarkus-mcp-server/src/main/java/me/amiralles/mcp/QuarkusMcpServerApplication.java
+/Users/amiralle/Workspace/development/repos/local/quarkus-mcp-server-example/quarkus-mcp-server/src/main/java/me/amiralles/mcp/client/ApplicationsClient.java
+/Users/amiralle/Workspace/development/repos/local/quarkus-mcp-server-example/quarkus-mcp-server/src/main/java/me/amiralles/mcp/model/Application.java
+/Users/amiralle/Workspace/development/repos/local/quarkus-mcp-server-example/quarkus-mcp-server/src/main/java/me/amiralles/mcp/model/ApplicationStatus.java
