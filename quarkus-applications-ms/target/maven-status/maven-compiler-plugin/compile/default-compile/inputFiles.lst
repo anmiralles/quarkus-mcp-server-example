@@ -1,7 +1,0 @@
-/Users/amiralle/Workspace/development/repos/local/quarkus-mcp-server-example/quarkus-applications-ms/src/main/java/me/amiralles/applications/RestApplication.java
-/Users/amiralle/Workspace/development/repos/local/quarkus-mcp-server-example/quarkus-applications-ms/src/main/java/me/amiralles/applications/boundary/ApplicationsAddResource.java
-/Users/amiralle/Workspace/development/repos/local/quarkus-mcp-server-example/quarkus-applications-ms/src/main/java/me/amiralles/applications/boundary/ApplicationsResource.java
-/Users/amiralle/Workspace/development/repos/local/quarkus-mcp-server-example/quarkus-applications-ms/src/main/java/me/amiralles/applications/control/ApplicationExceptionMapper.java
-/Users/amiralle/Workspace/development/repos/local/quarkus-mcp-server-example/quarkus-applications-ms/src/main/java/me/amiralles/applications/entity/Application.java
-/Users/amiralle/Workspace/development/repos/local/quarkus-mcp-server-example/quarkus-applications-ms/src/main/java/me/amiralles/applications/entity/ApplicationStatus.java
-/Users/amiralle/Workspace/development/repos/local/quarkus-mcp-server-example/quarkus-applications-ms/src/main/java/me/amiralles/applications/entity/EntityNotFoundException.java
