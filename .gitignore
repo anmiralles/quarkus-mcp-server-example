@@ -1,2 +1,15 @@
 /.idea/
 /quarkus-applications-ms/target/
+/CLAUDE.md
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+deployment/.DS_Store
+quarkus-applications-ms/.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+/BLOG.md

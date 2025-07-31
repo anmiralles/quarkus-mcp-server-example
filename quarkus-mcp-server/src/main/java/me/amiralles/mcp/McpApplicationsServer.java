@@ -30,7 +30,7 @@ public class McpApplicationsServer {
 
     @Startup
     void init() {
-        LOGGER.info("Starting Favorite Coffee MCP server, application URL: " + baseUrl);
+        LOGGER.info("Starting personal Application MCP server, application URL: " + baseUrl);
     }
 
     @Tool(description = "Lists all asylum requests in the system")
@@ -39,7 +39,7 @@ public class McpApplicationsServer {
         return applicationsClient.list_applications();
     }
 
-    @Tool(description = "Lists an asylum request by its id")
+    @Tool(description = "Lists an personal request by its id")
     public Application get_application_by_id(
             @ToolArg(description = "The id of the asylum request to retrieve", required = true)
             Long id) {
@@ -47,15 +47,15 @@ public class McpApplicationsServer {
         return applicationsClient.get_application_by_id(id);
     }
 
-    @Tool(description = "Lists asylum requests filtered by country name")
+    @Tool(description = "Lists personal requests filtered by country name")
     public List<Application> get_applications_by_country(
             @ToolArg(description = "The name of the country to filter by", required = true)
             String countryName) {
-        LOGGER.infof("MCP Tool: Getting asylum requests by country: %s", countryName);
+        LOGGER.infof("MCP Tool: Getting personal requests by country: %s", countryName);
         return applicationsClient.get_applications_by_country(countryName);
     }
 
-    @Tool(description = "Lists asylum requests filtered by both country name and request status")
+    @Tool(description = "Lists personal requests filtered by both country name and request status")
     public List<Application> get_applications_by_country_and_status(
             @ToolArg(description = "The name of the country to filter by", required = true)
             String countryName,
@@ -65,9 +65,9 @@ public class McpApplicationsServer {
         return applicationsClient.get_applications_by_country_and_status(countryName, status);
     }
 
-    @Tool(description = "Add asylum request to the system")
+    @Tool(description = "Add personal request to the system")
     public String add_application(
-            @ToolArg(description = "The data for the asylum request (name, surname, personalId and country)", required = true) Application application) {
+            @ToolArg(description = "The data for the personal request (name, surname, personalId and country)", required = true) Application application) {
         LOGGER.infof("Received request to create new application: %s %s %s",
                 application.name, application.surname, application.personalId);
         return applicationsClient.add_application(application);
